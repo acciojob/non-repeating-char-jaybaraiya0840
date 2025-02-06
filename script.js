@@ -12,7 +12,7 @@ for(let i=0;i<str.length;i++){
 
     for (let x of str) {
         if (obj[x] == 1) {
-            consol.log(x)
+            console.log(x)
         }
     }
 
