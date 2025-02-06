@@ -1,10 +1,12 @@
 function firstNonRepeatedChar(str) {
- // Write your code here
-	let count={};
-	for (let char of str) {
+    let Count = {};
+
+    for (let i = 0; i < str.length; i++) {
+        let char = str[i];
         Count[char] = (Count[char] || 0) + 1;
     }
-	for (let char of str) {
+    for (let i = 0; i < str.length; i++) {
+        const char = str[i];
         if (Count[char] == 1) {
             return char; 
         }
