@@ -12,8 +12,9 @@ for(let i=0;i<str.length;i++){
 
     for (let x of str) {
         if (obj[x] == 1) {
-            console.log(x)
+			return x;
         }
+	
     }
 
     return null;
